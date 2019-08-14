@@ -1,0 +1,28 @@
+{
+  "name": "type-graphql-starter",
+  "version": "1.0.0",
+  "description": "typescript + graphql scaffold",
+  "main": "index.js",
+  "repository": "https://github.com/yugasun/type-graphql-starter.git",
+  "author": "yugasun",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "rimraf dist && tsc"
+  },
+  "dependencies": {
+    "apollo-server": "^2.8.1",
+    "graphql": "^14.4.2",
+    "graphql-import": "^0.7.1",
+    "graphql-tools": "^4.0.5",
+    "type-graphql": "^0.17.4"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.2.3",
+    "@types/node": "^12.7.1",
+    "rimraf": "^2.7.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
