@@ -16,7 +16,7 @@
     "graphql": "^14.4.2",
     "graphql-import": "^0.7.1",
     "graphql-tools": "^4.0.5",
-    "type-graphql": "^0.17.4"
+    "type-graphql": "^0.17.6"
   },
   "devDependencies": {
     "@types/graphql": "^14.2.3",
